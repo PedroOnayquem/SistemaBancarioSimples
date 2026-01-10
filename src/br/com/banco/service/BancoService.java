@@ -10,14 +10,12 @@ public class BancoService {
 	private List<Conta> contas = new ArrayList<>();
 	private int proximoNumero = 1;
 	
-	//Cria conta corrente
 	public Conta criarContaCorrente(Cliente cliente) {
 		Conta conta = new ContaCorrente(proximoNumero++, cliente);
 		contas.add(conta);
 		return conta;
 	}
 	
-	//Cira conta poupanca
 	public Conta criarContaPoupanca(Cliente cliente) {
 		Conta conta = new ContaPoupanca(proximoNumero++, cliente);
 		contas.add(conta);
@@ -33,4 +31,18 @@ public class BancoService {
 		return null;
 	}
 	
+	public void transferir(int origem, int destino, double valor) {
+		Conta contaOrigem = buscarConta(origem);
+		Conta contaDestino = buscarConta(destino);
+		
+		if (contaOrigem == null || contaDestino == null) {
+			throw new RuntimeException("Conta não encontrada");
+		}
+		contaOrigem.sacar(valor);
+		contaDestino.depositar(valor);
+	}
+	//Lista todas as contas (pra teste)
+	public List<Conta> listarContas(){
+		return contas;
+	}
 }
