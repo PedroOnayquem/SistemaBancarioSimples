@@ -85,18 +85,6 @@ Main.java
 
 4️⃣ O sistema será iniciado no terminal 🚀
 
-## 📁 Estrutura do Projeto
-br.com.banco
-├── model
-│   ├── Cliente
-│   ├── Conta
-│   ├── ContaCorrente
-│   ├── ContaPoupanca
-│   ├── Transacao
-│   └── TipoTransacao
-├── service
-│   └── BancoService
-└── Main
 
 ## 📊 Exemplo de Fluxo
 Cliente → Conta → Operações → Transações → Saldo atualizado
