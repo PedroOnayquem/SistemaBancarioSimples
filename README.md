@@ -1,10 +1,10 @@
-# 🏦 Sistema Bancário – Java POO
+# Sistema Bancário – Java POO
 
 Sistema bancário desenvolvido em Java, utilizando Programação Orientada a Objetos (POO), com menu interativo no terminal para simular operações bancárias reais como criação de contas, depósitos, saques, transferências e relatórios de saldo.
 
 Projeto focado em lógica de negócio, estrutura de classes, boas práticas de OOP e simulação de um sistema bancário real.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Java 21
 
@@ -16,7 +16,7 @@ Projeto focado em lógica de negócio, estrutura de classes, boas práticas de O
 
 - GitHub
 
-## 📌 Funcionalidades
+## Funcionalidades
 
 - Criar Conta Corrente
 
@@ -36,7 +36,7 @@ Projeto focado em lógica de negócio, estrutura de classes, boas práticas de O
 
 - Registro de transações bancárias
 
-## 🧠 Conceitos Aplicados
+## Conceitos Aplicados
 
 - Encapsulamento
 
@@ -52,11 +52,11 @@ Projeto focado em lógica de negócio, estrutura de classes, boas práticas de O
 
 - Enums para tipos de transação
 
-## 🧩 Como funciona
+## Como funciona
 
 O sistema é executado no terminal e permite ao usuário interagir através de um menu.
 
-## 📋 Exemplo de menu:
+## Exemplo de menu:
 
 ===== BANCO =====
 
@@ -91,14 +91,12 @@ git clone https://github.com/PedroOnayquem/SistemaBancarioSimples.git
 Main.java
 
 
- ## O sistema será iniciado no terminal 🚀
+ ## O sistema será iniciado no terminal 
 
 
-## 📊 Exemplo de Fluxo
+## Exemplo de Fluxo
 Cliente → Conta → Operações → Transações → Saldo atualizado
 
-## 👨‍💻 Autor
+## Autor
 
-Pedro Onayquen
-
-🔗 GitHub: https://github.com/PedroOnayquen
+Pedro Onayquen GitHub: https://github.com/PedroOnayquen
