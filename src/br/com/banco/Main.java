@@ -1,22 +1,22 @@
 package br.com.banco;
 
-import br.com.banco.model.*;
-import br.com.banco.exception.SaldoInsuficienteException;
+import br.com.banco.model.Cliente;
+import br.com.banco.model.Conta;
+import br.com.banco.service.BancoService;
 
 public class Main {
     public static void main(String[] args) {
 
-        Cliente cliente = new Cliente("Pedro", "123.456.789-00");
-        Conta conta = new ContaCorrente(1, cliente);
+    	BancoService banco = new BancoService();
 
-        conta.depositar(10000);
+    	Cliente pedro = new Cliente("Pedro", "123");
+    	Conta c1 = banco.criarContaCorrente(pedro);
+    	Conta c2 = banco.criarContaPoupanca(new Cliente("Maria", "456"));
 
-        try {
-            conta.sacar(50);
-        } catch (SaldoInsuficienteException e) {
-            System.out.println("Erro: " + e.getMessage());
-        }
+    	c1.depositar(1000);
+    	banco.transferir(c1.getNumero(), c2.getNumero(), 300);
 
-        System.out.println("Saldo atual: " + conta.getSaldo());
+    	System.out.println("Saldo Pedro: " + c1.getSaldo());
+    	System.out.println("Saldo Maria: " + c2.getSaldo());
     }
 }
