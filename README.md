@@ -57,33 +57,41 @@ Projeto focado em lógica de negócio, estrutura de classes, boas práticas de O
 O sistema é executado no terminal e permite ao usuário interagir através de um menu.
 
 ## 📋 Exemplo de menu:
+
 ===== BANCO =====
+
 1 - Criar conta corrente
+
 2 - Criar conta poupança
+
 3 - Depositar
+
 4 - Sacar
+
 5 - Transferir
+
 6 - Listar contas
+
 0 - Sair
 
 
 Cada operação é validada, garantindo integridade dos dados e regras bancárias.
 
-## ▶️ Executar o projeto
+## Executar o projeto
 
-1️⃣ Clone o repositório:
+ ### Clone o repositório:
 
 git clone https://github.com/PedroOnayquem/SistemaBancarioSimples.git
 
 
-2️⃣ Abra no Eclipse ou IntelliJ IDEA
+ ### Abra no Eclipse ou IntelliJ IDEA
 
-3️⃣ Execute a classe:
+ ### Execute a classe:
 
 Main.java
 
 
-4️⃣ O sistema será iniciado no terminal 🚀
+ ## O sistema será iniciado no terminal 🚀
 
 
 ## 📊 Exemplo de Fluxo
