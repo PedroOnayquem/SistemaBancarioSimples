@@ -1,52 +1,62 @@
-🏦 #Sistema Bancário – Java POO
+#🏦 Sistema Bancário – Java POO
 
 Sistema bancário desenvolvido em Java, utilizando Programação Orientada a Objetos (POO), com menu interativo no terminal para simular operações bancárias reais como criação de contas, depósitos, saques, transferências e relatórios de saldo.
 
 Projeto focado em lógica de negócio, estrutura de classes, boas práticas de OOP e simulação de um sistema bancário real.
 
-🚀 #Tecnologias Utilizadas
-<p align="left"> <img src="https://img.shields.io/badge/Java-21-red?logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/OOP-Object%20Oriented-blue"/> <img src="https://img.shields.io/badge/Eclipse-IDE-purple?logo=eclipse&logoColor=white"/> <img src="https://img.shields.io/badge/Git-Version%20Control-orange?logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github"/> </p>
-📌 #Funcionalidades
+#🚀 Tecnologias Utilizadas
 
---Criar Conta Corrente
+-Java 21
 
---Criar Conta Poupança
+-Programação Orientada a Objetos (POO)
 
---Depositar valores
+-Eclipse / IntelliJ IDEA
 
---Sacar valores
+-Git
 
---Transferir entre contas
+-GitHub
 
---Listar contas e saldos
+#📌 Funcionalidades
 
---Validação de contas inexistentes
+-Criar Conta Corrente
 
---Tratamento de saldo insuficiente
+-Criar Conta Poupança
 
---Registro de transações bancárias
+-Depositar valores
 
-🧠 #Conceitos Aplicados
+-Sacar valores
 
---Encapsulamento
+-Transferir entre contas
 
---Herança
+-Listar contas e saldos
 
---Polimorfismo
+-Validação de contas inexistentes
 
---Abstração
+-Tratamento de saldo insuficiente
 
---Regras de negócio
+-Registro de transações bancárias
 
---Listas e Streams
+#🧠 Conceitos Aplicados
 
---Enums para tipos de transação
+-Encapsulamento
 
-🧩 #Como funciona
+-Herança
+
+-Polimorfismo
+
+-Abstração
+
+-Regras de negócio
+
+-Listas e Streams
+
+-Enums para tipos de transação
+
+#🧩 Como funciona
 
 O sistema é executado no terminal e permite ao usuário interagir através de um menu.
 
-📋 #Exemplo de menu:
+#📋 Exemplo de menu:
 ===== BANCO =====
 1 - Criar conta corrente
 2 - Criar conta poupança
@@ -59,7 +69,7 @@ O sistema é executado no terminal e permite ao usuário interagir através de u
 
 Cada operação é validada, garantindo integridade dos dados e regras bancárias.
 
-▶️ #Executar o projeto
+#▶️ Executar o projeto
 
 1️⃣ Clone o repositório:
 
@@ -75,7 +85,7 @@ Main.java
 
 4️⃣ O sistema será iniciado no terminal 🚀
 
-📁 #Estrutura do Projeto
+#📁 Estrutura do Projeto
 br.com.banco
 ├── model
 │   ├── Cliente
@@ -88,10 +98,10 @@ br.com.banco
 │   └── BancoService
 └── Main
 
-📊 #Exemplo de Fluxo
+#📊 Exemplo de Fluxo
 Cliente → Conta → Operações → Transações → Saldo atualizado
 
-👨‍💻 #Autor
+#👨‍💻 Autor
 
 Pedro Onayquen
 🔗 GitHub: https://github.com/PedroOnayquen
