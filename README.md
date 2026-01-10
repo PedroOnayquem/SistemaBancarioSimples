@@ -4,59 +4,59 @@ Sistema bancário desenvolvido em Java, utilizando Programação Orientada a Obj
 
 Projeto focado em lógica de negócio, estrutura de classes, boas práticas de OOP e simulação de um sistema bancário real.
 
-#🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
--Java 21
+- Java 21
 
--Programação Orientada a Objetos (POO)
+- Programação Orientada a Objetos (POO)
 
--Eclipse / IntelliJ IDEA
+- Eclipse / IntelliJ IDEA
 
--Git
+- Git
 
--GitHub
+- GitHub
 
-#📌 Funcionalidades
+## 📌 Funcionalidades
 
--Criar Conta Corrente
+- Criar Conta Corrente
 
--Criar Conta Poupança
+- Criar Conta Poupança
 
--Depositar valores
+- Depositar valores
 
--Sacar valores
+- Sacar valores
 
--Transferir entre contas
+- Transferir entre contas
 
--Listar contas e saldos
+- Listar contas e saldos
 
--Validação de contas inexistentes
+- Validação de contas inexistentes
 
--Tratamento de saldo insuficiente
+- Tratamento de saldo insuficiente
 
--Registro de transações bancárias
+- Registro de transações bancárias
 
-#🧠 Conceitos Aplicados
+## 🧠 Conceitos Aplicados
 
--Encapsulamento
+- Encapsulamento
 
--Herança
+- Herança
 
--Polimorfismo
+- Polimorfismo
 
--Abstração
+- Abstração
 
--Regras de negócio
+- Regras de negócio
 
--Listas e Streams
+- Listas e Streams
 
--Enums para tipos de transação
+- Enums para tipos de transação
 
-#🧩 Como funciona
+## 🧩 Como funciona
 
 O sistema é executado no terminal e permite ao usuário interagir através de um menu.
 
-#📋 Exemplo de menu:
+## 📋 Exemplo de menu:
 ===== BANCO =====
 1 - Criar conta corrente
 2 - Criar conta poupança
@@ -69,7 +69,7 @@ O sistema é executado no terminal e permite ao usuário interagir através de u
 
 Cada operação é validada, garantindo integridade dos dados e regras bancárias.
 
-#▶️ Executar o projeto
+## ▶️ Executar o projeto
 
 1️⃣ Clone o repositório:
 
@@ -85,7 +85,7 @@ Main.java
 
 4️⃣ O sistema será iniciado no terminal 🚀
 
-#📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 br.com.banco
 ├── model
 │   ├── Cliente
@@ -98,10 +98,10 @@ br.com.banco
 │   └── BancoService
 └── Main
 
-#📊 Exemplo de Fluxo
+## 📊 Exemplo de Fluxo
 Cliente → Conta → Operações → Transações → Saldo atualizado
 
-#👨‍💻 Autor
+## 👨‍💻 Autor
 
 Pedro Onayquen
 🔗 GitHub: https://github.com/PedroOnayquen
