@@ -47,6 +47,7 @@ public class BancoService {
 	    contaDestino.getTransacoes()
 	        .add(new Transacao(TipoTransacao.TRANSFERENCIA_ENTRADA, valor));
 	}
+	
 
 	//Lista todas as contas (pra teste)
 	public List<Conta> listarContas(){
