@@ -32,15 +32,22 @@ public class BancoService {
 	}
 	
 	public void transferir(int origem, int destino, double valor) {
-		Conta contaOrigem = buscarConta(origem);
-		Conta contaDestino = buscarConta(destino);
-		
-		if (contaOrigem == null || contaDestino == null) {
-			throw new RuntimeException("Conta não encontrada");
-		}
-		contaOrigem.sacar(valor);
-		contaDestino.depositar(valor);
+	    Conta contaOrigem = buscarConta(origem);
+	    Conta contaDestino = buscarConta(destino);
+
+	    if (contaOrigem == null || contaDestino == null) {
+	        throw new RuntimeException("Conta não encontrada");
+	    }
+
+	    contaOrigem.sacar(valor);
+	    contaDestino.depositar(valor);
+
+	    contaOrigem.getTransacoes()
+	        .add(new Transacao(TipoTransacao.TRANSFERENCIA_SAIDA, valor));
+	    contaDestino.getTransacoes()
+	        .add(new Transacao(TipoTransacao.TRANSFERENCIA_ENTRADA, valor));
 	}
+
 	//Lista todas as contas (pra teste)
 	public List<Conta> listarContas(){
 		return contas;
