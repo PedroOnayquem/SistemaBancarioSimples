@@ -47,6 +47,26 @@ public class BancoService {
 	    contaDestino.getTransacoes()
 	        .add(new Transacao(TipoTransacao.TRANSFERENCIA_ENTRADA, valor));
 	}
+	public void imprimirExtrato(int numeroConta) {
+		Conta conta = buscarConta(numeroConta);
+		
+		if (conta == null) {
+			System.out.println("Conta não encontrada. ");
+			return;
+		}
+		
+		System.out.println("\nExtrato da Conta " + conta.getNumero());
+		System.out.println("Cliente: " + conta.getCliente().getNome());
+		System.out.println("---------------------------");
+		
+		for (Transacao t : conta.getTransacoes()) {
+			System.out.println(t.getTipo() + " - R$ " + t.getValor());
+		}
+		
+		System.out.println("---------------------------");
+		System.out.println("Saldo atual: " + conta.getSaldo());
+		
+	}
 	
 
 	//Lista todas as contas (pra teste)
