@@ -113,7 +113,7 @@ public class Main {
                     case 6:
                         for (Conta c : banco.listarContas()) {
                             System.out.println("Conta " + c.getNumero() +
-                                    " | Cliente: " + c.getClass().getName() +
+                                    " | Cliente: " + c.getCliente().getNome() +
                                     " | Saldo: " + c.getSaldo());
                         }
                         break;
