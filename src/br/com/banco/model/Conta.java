@@ -22,6 +22,10 @@ public abstract class Conta {
 		transacoes.add(new Transacao(TipoTransacao.DEPOSITO, valor));
 	}
 	
+	public Cliente getCliente() {
+		return cliente;
+	}
+	
 	public double getSaldo() {
 		return saldo;
 	}
