@@ -21,6 +21,7 @@ public class Main {
             System.out.println("4 - Sacar");
             System.out.println("5 - Transferir");
             System.out.println("6 - Listar contas");
+            System.out.println("7 - Extrato da conta");
             System.out.println("0 - Sair");
             System.out.print("Escolha: ");
 
@@ -117,7 +118,13 @@ public class Main {
                                     " | Saldo: " + c.getSaldo());
                         }
                         break;
-
+                        
+                    case 7:
+                    	System.out.println("Conta: ");
+                    	int contaExtrato = sc.nextInt();
+                    	banco.imprimirExtrato(contaExtrato);
+                    	break;
+                    	
                     case 0:
                         System.out.println("Encerrando...");
                         sc.close();
